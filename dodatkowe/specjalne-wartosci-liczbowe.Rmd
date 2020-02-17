@@ -1,0 +1,75 @@
+---
+title: "Specjalne wartości liczbowe w R"
+author: "Tomasz Żółtak"
+date: "17.02.2020"
+output: html_document
+---
+
+# Wprowadzenie
+
+Pewne operacje są w matematyce w zasadzie niedozwolone, lub nie mają sensu, np. dzielenie przez zero, czy wykonywanie jakichkolwiek operacji arytmetycznych na nieskończonościach. Próba ich wykonania w R nie wywoła jednak błędu, za to spowoduje zwrócenie w wyniku jednej ze specjalnych wartości liczbowych.
+
+# Nieskończoność
+
+W R element wektora liczb może mieć wartość *nieskończoność*: `Inf` lub *minus nieskończoność*: `-Inf` i **nie są** one traktowane jak braki danych! Wartości te możemy wykorzystać do porównań większe/mniejsze:
+
+```{r comment="", prompt=TRUE, collapse=TRUE}
+Inf > 0
+c(1, 0, -Inf) >= 0
+Inf > 10^308
+# ale
+Inf > 10^309
+# bo
+10^308  # to się jeszcze daje reprezentować w typie danych 'numeric'
+10^309  # a to jest już zbyt duża liczba
+Inf == Inf
+# Inf to nie brak danych!
+is.na(Inf)
+```
+
+Poddają się też one operacjom arytmetycznym (z pewnym ograniczeniem w zakresie odejmowania i dzielenia), choć w większości wypadków zwracają w nich siebie lub minus siebie:
+
+```{r comment="", prompt=TRUE, collapse=TRUE}
+Inf + 2
+Inf + Inf
+Inf * 5
+Inf * -5
+Inf * Inf
+Inf / 123
+# ale (p. sekcja "Nie liczba" poniżej)
+Inf - Inf
+Inf / Inf
+```
+
+Wartości `Inf` lub `-Inf` typowo uzyskujemy w wyniku wykonania jednej z dwóch operacji:
+
+1. Podania jako argumentu funkcji `min()` lub `max()` wektora zawierającego same braki danych, przy podaniu wartości argumentu `na.rm = TRUE` (poskutkuje to wywołaniem ostrzeżenia).  
+```{r comment="", prompt=TRUE, collapse=TRUE}
+min(NA, na.rm = TRUE)
+max(NA, na.rm = TRUE)
+```
+
+2. Podzieleniu liczby (nie będącej zerem) przez zero (zwróćmy uwagę, że oznacza to przyjęcie milczącego założenia, że tak na prawdę to nie chcieliśmy podzielić przez zero, tylko coś bardzo, bardzo małego - na tyle, że zostało zapisane jako zero, bo w programie zabrakło nam precyzji pozwalającej reprezentować tak małe liczby).
+```{r comment="", prompt=TRUE, collapse=TRUE}
+10 / 0
+-5 / 0
+-5 / (10 / 10^309)
+```
+
+# "Nie liczba"
+
+Wartość "Nie liczba": `NaN` jest specyficznym rodzajem braku danych, który uzyskamy, jeśli spróbujemy wykonać jedną z trzech operacji:
+
+  1. Podzielić zero przez zero.
+  2. Odjąć *nieskończoność* od *nieskończoności*.
+  3. Podzielić *nieskończoność* przez *nieskończoność*.
+
+```{r comment="", prompt=TRUE, collapse=TRUE}
+0 / 0
+Inf - Inf
+Inf / Inf
+
+is.na(NaN)
+```
+
+Wartość `NaN` jest uznawana za brak danych. Tyle tylko, że niesie ze sobą dodatkową inforację, że powstał on w wyniku próby wykonania *nielegalnej* operacji arytmetycznej.
