@@ -1,5 +1,6 @@
 # Analiza danych ilościowych z wykorzystaniem R  
-[3502-SCC-ADR]
+
+## [3502-SCC-ADR gr. 3.]
 
 # Zarys programu
 
