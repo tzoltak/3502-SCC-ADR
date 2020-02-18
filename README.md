@@ -84,6 +84,8 @@ Tematy przygotowane przez prowadzących zajęcia (pogrupowane wg zbiorów danych
 
 # Materiały z zajęć
 
+- [1. zajęcia 18.02.2020](zajecia-1.zip) - materiały do pobrania;
+
 # Materiały uzupełniające
 
 - Podstawy zarządzania środowiskiem R (dodatkowe pakiety, aktualizacje itp.) - dokument po angielsku:
