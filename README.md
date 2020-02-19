@@ -55,6 +55,11 @@ Realizacja projektu badawczego będzie **wymagać instalacji R na komputerach u
 - Instalator R należy pobrać ze strony [CRAN](https://cran.r-project.org).
 - Instalator RStudio należy pobrać ze strony [dostawcy](https://www.rstudio.com/products/rstudio/download/#download).
 
+**Po pierwszym otwarciu RStudio należy ustawić domyślne kodowanie plików z kodem na UTF-8.** (pozwoli to uniknąć *krzaczenia się* polskich znaków w materiałach do kursu)  
+W tym celu: z menu *Tools* RStudio wybieramy opcję *Global Options*; w oknie, które się pojawi, spośród listy ikon po lewej wybieramy *Code*, a następnie w prawej części okna zakładkę *Saving*; klikamy przycisk *Change...* obok pola podpisanego *Default text encoding:* i w okienku, które się pokaże, wybieramy opcję *UTF-8* (pozostaje jeszcze zaakceptować wybór i zmiany opcji klikając przyciski *OK*).
+
+![Opcja zmiany kodowania znaków w RStudio](zmien_kodowanie_na_utf.png)
+
 W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatnym komputerze, należy zgłosić się do prowadzącego zajęcia **pod koniec drugich zajęć (25 lutego 2020)** - oczywiście przynosząc swój komputer, aby móc pokazać, na czym dokładnie polega problem.
 
 ## Tematy projektów
