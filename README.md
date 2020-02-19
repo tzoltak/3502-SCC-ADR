@@ -30,6 +30,8 @@ Warunkiem zaliczenia przedmiotu jest otrzymanie ocen co najmniej dostatecznych z
 
 # Projekt badawczy
 
+## Sposób realizacji projektu
+
 - Projekt wykonywany jest w zespołach 2‑3 osobowych. Uczestnicy zajęć samodzielnie dobierają się w zespoły i zgłaszają ich skład prowadzącemu.
   - Skład zespołów powinien być zgłoszony przed drugimi zajęciami (25 lutego 2020).
   - W przypadku, gdyby wszyscy uczestnicy zajęć nie dobrali się w zespoły samodzielnie, prowadzący może zmodyfikować skład zespołów.
@@ -49,18 +51,6 @@ Warunkiem zaliczenia przedmiotu jest otrzymanie ocen co najmniej dostatecznych z
     - Jeśli dane nie wymagają większej obróbki przed przystąpieniem do obliczeń: kod pozwalający uzyskać wstępne wyniki analiz, wraz z opisem, co przeprowadzone analizy pozwalają pokazać.
   - Przed siódmymi zajęciami (31 marca 2020) ww. notebook R uzupełniony o kod pozwalający uzyskać ostateczne wyniki analiz, wraz z opisem, co przeprowadzone analizy pozwalają pokazać.
   - Do 20 kwietnia (?) ww. notebook R, uzupełniony o sekcję, w której najważniejsze (najbardziej interesujące) wyniki zostaną estetycznie zilustrowane przy pomocy tabel i wykresów (sekcja powinna zawierać 1‑3 tabele i 2‑4 wykresów).
-
-Realizacja projektu badawczego będzie **wymagać instalacji R na komputerach uczestników zajęć**:
-
-- Instalator R należy pobrać ze strony [CRAN](https://cran.r-project.org).
-- Instalator RStudio należy pobrać ze strony [dostawcy](https://www.rstudio.com/products/rstudio/download/#download).
-
-**Po pierwszym otwarciu RStudio należy ustawić domyślne kodowanie plików z kodem na UTF-8.** (pozwoli to uniknąć *krzaczenia się* polskich znaków w materiałach do kursu)  
-W tym celu: z menu *Tools* RStudio wybieramy opcję *Global Options*; w oknie, które się pojawi, spośród listy ikon po lewej wybieramy *Code*, a następnie w prawej części okna zakładkę *Saving*; klikamy przycisk *Change...* obok pola podpisanego *Default text encoding:* i w okienku, które się pokaże, wybieramy opcję *UTF-8* (pozostaje jeszcze zaakceptować wybór i zmiany opcji klikając przyciski *OK*).
-
-![Opcja zmiany kodowania znaków w RStudio](zmien_kodowanie_na_utf.png)
-
-W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatnym komputerze, należy zgłosić się do prowadzącego zajęcia **pod koniec drugich zajęć (25 lutego 2020)** - oczywiście przynosząc swój komputer, aby móc pokazać, na czym dokładnie polega problem.
 
 ## Tematy projektów
 
@@ -86,6 +76,33 @@ Tematy przygotowane przez prowadzących zajęcia (pogrupowane wg zbiorów danych
 **[Ceny domów w Saratodze](https://dasl.datadescription.com/datafile/saratoga-houses):**
 
 6. Pokaż, od czego zależy cena domów w tym amerykańskim mieście.
+
+# Instalacja R
+
+Realizacja projektu badawczego będzie **wymagać instalacji R na komputerach uczestników zajęć**:
+
+## Skąd pobrać?
+
+- Instalator R należy pobrać ze strony [CRAN](https://cran.r-project.org).
+- Instalator RStudio należy pobrać ze strony [dostawcy](https://www.rstudio.com/products/rstudio/download/#download).
+
+## Co ustawić po instalacji?
+
+**Po pierwszym otwarciu RStudio należy ustawić domyślne kodowanie plików z kodem na UTF-8.**  
+(Pozwoli to uniknąć *krzaczenia się* polskich znaków w materiałach do kursu.)
+
+W tym celu (por. rysunek poniżej):
+
+- z menu *Tools* RStudio wybieramy opcję *Global Options*;
+- w oknie, które się pojawi, spośród listy ikon po lewej wybieramy *Code*, a następnie w prawej części okna zakładkę *Saving*;
+- klikamy przycisk *Change...* obok pola podpisanego *Default text encoding:* i w okienku, które się pokaże, wybieramy opcję *UTF-8*;
+- akceptujemy wybór, a następnie zmianę opcji klikając przyciski *OK*.
+
+![Zmiana kodowania znaków w opcjach RStudio](zmien_kodowanie_na_utf.png)
+
+## Rozwiązywanie problemów
+
+W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatnym komputerze, należy zgłosić się do prowadzącego zajęcia **pod koniec drugich zajęć (25 lutego 2020)** - oczywiście przynosząc swój komputer, aby móc pokazać, na czym dokładnie polega problem.
 
 # Materiały z zajęć
 
