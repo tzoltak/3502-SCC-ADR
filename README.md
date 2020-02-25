@@ -107,8 +107,9 @@ W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatn
 # Materiały z zajęć
 
 - [1. zajęcia 18.02.2020](zajecia-1.zip) - materiały do pobrania;
+- [2. zajęcia 25.02.2020](zajecia-2.zip) - materiały do pobrania;
 
-# Materiały uzupełniające
+# Materiały uzupełniające (do pobrania)
 
 - Podstawy zarządzania środowiskiem R (dodatkowe pakiety, aktualizacje itp.) - dokument po angielsku:
   - [plik .Rmd](dodatkowe/R-management-basics.Rmd) - można pobrać i samodzielnie *sknitować* (skompilować) do HTML;
