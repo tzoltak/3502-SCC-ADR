@@ -110,6 +110,7 @@ W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatn
 - [2. zajęcia 25.02.2020](zajecia-2.zip) - materiały do pobrania;
 - [3. zajęcia 3.03.2020](zajecia-3.zip) - materiały do pobrania;
 - [4. zajęcia 10.03.2020](zajecia-4.zip) - materiały do pobrania;
+- [5. zajęcia 17-24.03.2020](zajecia-5.zip) - materiały do pobrania;
 
 # Materiały uzupełniające (do pobrania)
 
