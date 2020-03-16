@@ -1,4 +1,8 @@
+![Górna belka z logami: UW, IS, ZIP](belka_gorna.png)
+
 # Analiza danych ilościowych z wykorzystaniem R  
+
+Materiały na zajęcia *Analiza danych ilościowych z wykorzystaniem R* zostały przygotowane w ramach projektu *Program zintegrowanych działań na rzecz rozwoju Uniwersytetu Warszawskiego*, realizowanego w ramach programu operacyjnego Wiedza Edukacja Rozwój, oś priorytetowa III. *Szkolnictwo wyższe dla gospodarki i rozwoju*, działanie: 3.5 *Kompleksowe programy szkół wyższych*.
 
 ## [3502-SCC-ADR gr. 3.]
 
@@ -120,3 +124,5 @@ W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatn
 - Specjalne wartości liczbowe w R:
   - [plik .Rmd](dodatkowe/specjalne-wartosci-liczbowe.Rmd) - można pobrać i samodzielnie *sknitować* (skompilować) do HTML;
   - skompilowany [plik HTML](dodatkowe/specjalne-wartosci-liczbowe.html) - należy pobrać na dysk i dopiero stamtąd otworzyć w przeglądarce (GitHub nie otwiera plików HTML jako stron internetowych);
+
+![Dolna belka z logami: PO WER, RP, EFS](belka_dolna.png)
