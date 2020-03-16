@@ -49,12 +49,12 @@ Warunkiem zaliczenia przedmiotu jest otrzymanie ocen co najmniej dostatecznych z
     - Krótkie uzasadnienie wyboru tematu - jeden akapit wskazujący dla kogo i dlaczego wyniki tych analiz będą interesujące.
     - Opis źródła danych: co dane, ogólnie rzecz biorąc, opisują, skąd zostały pobrane i ew. jakie jest ich pierwotne źródło, jaka była ich forma: co było jednostką obserwacji w zbiorze, jak wiele było w zbiorze wierszy i kolumn (jeśli dane składały się z wielu zbiorów - oddzielnie dla każdego z nich).
     - Opis planowanych analiz: jakie zmienne zostaną w nich wykorzystane, i ew. w jaki sposób planuje się je przekształcać; jakie statystyki i dla jak zdefiniowanych grup planuje się obliczyć, aby zilustrować badany problem.
-  - Przed piątymi zajęciami (17 marca 2020) notebook R zawierający:
+  - Przed piątymi zajęciami (24 marca 2020) notebook R zawierający:
     - Uzasadnienie wyboru tematu i opis źródła danych z wcześniej przygotowanego dokumentu.
     - Kod przekształcający dane w celu przygotowania ich do właściwych analiz wraz z opisem dokonywanych przekształceń.
     - Jeśli dane nie wymagają większej obróbki przed przystąpieniem do obliczeń: kod pozwalający uzyskać wstępne wyniki analiz, wraz z opisem, co przeprowadzone analizy pozwalają pokazać.
-  - Przed siódmymi zajęciami (31 marca 2020) ww. notebook R uzupełniony o kod pozwalający uzyskać ostateczne wyniki analiz, wraz z opisem, co przeprowadzone analizy pozwalają pokazać.
-  - Do 20 kwietnia (?) ww. notebook R, uzupełniony o sekcję, w której najważniejsze (najbardziej interesujące) wyniki zostaną estetycznie zilustrowane przy pomocy tabel i wykresów (sekcja powinna zawierać 1‑3 tabele i 2‑4 wykresów).
+  - Przed siódmymi zajęciami (7 kwietnia 2020) ww. notebook R uzupełniony o kod pozwalający uzyskać ostateczne wyniki analiz, wraz z opisem, co przeprowadzone analizy pozwalają pokazać.
+  - Do 27 kwietnia ww. notebook R, uzupełniony o sekcję, w której najważniejsze (najbardziej interesujące) wyniki zostaną estetycznie zilustrowane przy pomocy tabel i wykresów (sekcja powinna zawierać 1‑3 tabele i 2‑4 wykresów).
 
 ## Tematy projektów
 
