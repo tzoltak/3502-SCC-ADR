@@ -115,14 +115,18 @@ W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatn
 - [3. zajęcia 3.03.2020](zajecia-3.zip) - materiały do pobrania;
 - [4. zajęcia 10.03.2020](zajecia-4.zip) - materiały do pobrania;
 - [5. zajęcia 17-24.03.2020](zajecia-5.zip) - materiały do pobrania;
+  - [wersja z przykładowymi rozwiązaniami](zajecia-5-z-rozwiazaniami.zip) - materiały do pobrania;
+- [6. zajęcia 24.-31.03.2020](zajecia-6.zip) - materiały do pobrania;
+
+- Dodatkowe [ćwiczenia z *dplyr* i *tidyr*](dodatkowe/cwiczenia-z-dplyr-i-tidyr.zip) - dla każdego, kto chce poćwiczyć swoje umiejętności przekształcania/analizy danych.
 
 # Materiały uzupełniające (do pobrania)
 
 - Podstawy zarządzania środowiskiem R (dodatkowe pakiety, aktualizacje itp.) - dokument po angielsku:
-  - [plik .Rmd](dodatkowe/R-management-basics.Rmd) - można pobrać i samodzielnie *sknitować* (skompilować) do HTML;
-  - skompilowany [plik HTML](dodatkowe/R-management-basics.html) - należy pobrać na dysk i dopiero stamtąd otworzyć w przeglądarce (GitHub nie otwiera plików HTML jako stron internetowych);
+  - [plik .md](dodatkowe/R-management-basics.md) - dobry do oglądania przez interfejs www GitHub;
+  - skompilowany [plik HTML](dodatkowe/R-management-basics.zip) - należy pobrać na dysk archiwum ZIP, rozpakować i otworzyć plik w przeglądarce (GitHub nie otwiera plików HTML jako stron internetowych);
 - Specjalne wartości liczbowe w R:
-  - [plik .Rmd](dodatkowe/specjalne-wartosci-liczbowe.Rmd) - można pobrać i samodzielnie *sknitować* (skompilować) do HTML;
-  - skompilowany [plik HTML](dodatkowe/specjalne-wartosci-liczbowe.html) - należy pobrać na dysk i dopiero stamtąd otworzyć w przeglądarce (GitHub nie otwiera plików HTML jako stron internetowych);
+  - [plik .md](dodatkowe/specjalne-wartosci-liczbowe.md) - dobry do oglądania przez interfejs www GitHub;
+  - skompilowany [plik HTML](dodatkowe/specjalne-wartosci-liczbowe.html) - należy pobrać na dysk archiwum ZIP, rozpakować i otworzyć plik w przeglądarce (GitHub nie otwiera plików HTML jako stron internetowych);
 
 ![Dolna belka z logami: PO WER, RP, EFS](belka_dolna.png)
