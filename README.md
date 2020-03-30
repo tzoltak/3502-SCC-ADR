@@ -117,6 +117,8 @@ W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatn
 - [5. zajęcia 17-24.03.2020](zajecia-5.zip) - materiały do pobrania;
   - [wersja z przykładowymi rozwiązaniami](zajecia-5-z-rozwiazaniami.zip) - materiały do pobrania;
 - [6. zajęcia 24.-31.03.2020](zajecia-6.zip) - materiały do pobrania;
+  - [wersja z przykładowymi rozwiązaniami](zajecia-6-z-rozwiazaniami.zip) - materiały do pobrania;
+- [7. zajęcia 31.03-7.04.2020](zajecia-7.zip) - materiały do pobrania;
 
 - Dodatkowe [ćwiczenia z *dplyr* i *tidyr*](dodatkowe/cwiczenia-z-dplyr-i-tidyr.zip) - dla każdego, kto chce poćwiczyć swoje umiejętności przekształcania/analizy danych.
 
