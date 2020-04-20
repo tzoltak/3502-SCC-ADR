@@ -134,11 +134,11 @@ W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatn
 
 # Potencjalnie ciekawe i użyteczne
 
-- [Przegląd graficznych interfejsów użytkownika (GUI) do R.](http://r4stats.com/articles/software-reviews/r-gui-comparison)
 - [Przegląd pakietów rozszerzających możliwości *ggplot2*](https://exts.ggplot2.tidyverse.org/gallery).
 - Pakiety wpierające tworzenie tabel:
   - *[expss](https://gdemin.github.io/expss)*,
   - *[tables](https://cran.r-project.org/web/packages/tables)*,
   - *[stargazer](https://cran.r-project.org/web/packages/stargazer)*.
+- [Przegląd graficznych interfejsów użytkownika (GUI) do R.](http://r4stats.com/articles/software-reviews/r-gui-comparison)
 
 ![Dolna belka z logami: PO WER, RP, EFS](belka_dolna.png)
