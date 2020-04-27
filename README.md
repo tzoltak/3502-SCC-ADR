@@ -32,6 +32,10 @@ Ocena końcowa z przedmiotu składa się z:
 
 Warunkiem zaliczenia przedmiotu jest otrzymanie ocen co najmniej dostatecznych z każdej z trzech wymienionych wyżej „składowych”. 
 
+# Kolokwium zaliczeniowe
+
+Kolokwium zaliczeniowe odbędzie się **w formie zdalnej**, z wykorzystaniem platformy *RStudio Cloud* **5 maja o godzinie 11:00**. Szczegóły dotyczące organizacji kolokwium zostaną przekazane uczestnikom zajęć drogą mailową.
+
 # Projekt badawczy
 
 ## Sposób realizacji projektu
@@ -122,6 +126,7 @@ W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatn
   - [wersja z przykładowymi rozwiązaniami](zajecia-7-z-rozwiazaniami.zip) - materiały do pobrania;
 
 - Dodatkowe [ćwiczenia z *dplyr* i *tidyr*](dodatkowe/cwiczenia-z-dplyr-i-tidyr.zip) - dla każdego, kto chce poćwiczyć swoje umiejętności przekształcania/analizy danych.
+- Dodatkowe [ćwiczenia z *ggplot2*](dodatkowe/dodatkowe_cwiczenia_ggplot2.zip) - dla każdego, kto chce poćwiczyć swoje umiejętności rysowania wykresów.
 
 # Materiały uzupełniające (do pobrania)
 
