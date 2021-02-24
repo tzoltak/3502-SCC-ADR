@@ -171,11 +171,14 @@ W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatn
     -   [*expss*](https://gdemin.github.io/expss),
     -   [*tables*](https://cran.r-project.org/web/packages/tables),
     -   [*stargazer*](https://cran.r-project.org/web/packages/stargazer),
+    -   [*huxtable*](https://cran.r-project.org/web/packages/huxtable),
     -   [*modelsummary*](https://vincentarelbundock.github.io/modelsummary).
 
 -   [Kurs *pogromcy danych*](http://www.biecek.pl/R/#Pogromcy).
 
 -   [Kurs analizy danych w R skupiony wokół metod wizualizacji (po angielsku)](https://socviz.co/).
+
+-   [Książka - obszerny kurs wizualizacji danych w *ggplot2*](https://clauswilke.com/dataviz/)
 
 -   [Przegląd pakietów rozszerzających możliwości *ggplot2*](https://exts.ggplot2.tidyverse.org/gallery).
 
