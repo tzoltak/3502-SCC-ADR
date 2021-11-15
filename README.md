@@ -172,7 +172,8 @@ W przypadku problemów z instalacją lub używaniem R/RStudio na swoim prywatn
     -   [*tables*](https://cran.r-project.org/web/packages/tables),
     -   [*stargazer*](https://cran.r-project.org/web/packages/stargazer),
     -   [*huxtable*](https://cran.r-project.org/web/packages/huxtable),
-    -   [*modelsummary*](https://vincentarelbundock.github.io/modelsummary).
+    -   [*modelsummary*](https://vincentarelbundock.github.io/modelsummary),
+    -   [*gtsummary*](https://www.danieldsjoberg.com/gtsummary).
 
 -   [Kurs *pogromcy danych*](http://www.biecek.pl/R/#Pogromcy).
 
